@@ -4,24 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./cssResrt.css" />
-    <!-- ADD import after extracting styles of component for BTN -->
+    <link rel="stylesheet" href="./components.css" />
     <link rel="stylesheet" href="./index.css" />
     <title>Document</title>
   </head>
   <body>
     <div class="header">
-      <button onclick="goToPage('Login')">Login</button>
+      <button class="actionBtn loginBtn" onclick="goToPage('Login')">Login</button>
     </div>
     <div class="products-container">
       <div class="products-header">
         <h2>Products</h2>
         <div class="products-manipulation">
-          <div class="products-categories">
-            <a class="active">All Products</a>
-            <a>Category 1</a>
-            <a>Category 2</a>
-            <a>Category 3</a>
-          </div>
+          <div class="products-categories"></div>
           <button class="filter-btn">
             <span>
               <img src="./images/filter.svg" alt="filter" />

@@ -42,21 +42,3 @@ body {
 input:focus {
   outline: none;
 }
-
-.btn {
-  border: none;
-  background-color: white;
-  border-radius: 4px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.30);
-  padding: 13px;
-  width: 300px;
-  font-size: 20px;
-  color: #FFD130;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-.linkContainer {
-  width: 100%;
-  margin-top: 12px;
-}
