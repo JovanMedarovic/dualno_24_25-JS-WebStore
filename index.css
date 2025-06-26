@@ -139,24 +139,16 @@ body {
   font-weight: 500;
   margin-bottom: 2px;
 }
+
 .product-type {
   font-size: 0.92rem;
   color: #888;
   margin-bottom: 4px;
 }
+
 .product-price {
   font-size: 1rem;
   font-weight: bold;
   color: #222;
   text-align: right;
-}
-@media (max-width: 900px) {
-  .products-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media (max-width: 600px) {
-  .products-grid {
-    grid-template-columns: 1fr;
-  }
 }
