@@ -14,7 +14,6 @@ body {
 .products-container {
   max-width: 1200px;
   margin: 40px auto;
-  font-family: Arial, sans-serif;
 }
 
 .products-header {
@@ -43,18 +42,17 @@ body {
   gap: 40px;
 }
 
-.products-categories span {
+.products-categories a {
   cursor: pointer;
   color: #888;
   font-size: 1rem;
-  border-bottom: 2px solid transparent;
   padding-bottom: 2px;
   transition:
     color 0.2s,
     border 0.2s;
 }
 
-.products-categories span:hover,
+.products-categories a:hover,
 .products-categories .active {
   color: #111;
 }
