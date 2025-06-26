@@ -5,10 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../../cssResrt.css">
   <link rel="stylesheet" href="./index.css">
-  <title>Document</title>
+  <title>Login</title>
 </head>
 <body>
-  <button onclick="goToPage('index.html','../../')">BackToIndex</button>
+  <div class="loginContainer">
+    <div class="imageContainer">
+      <img src="../../images/userLogo 2.png" alt="userLogo">
+    </div>
+    <input class="inputField userInput" type="text" placeholder="USERNAME">
+    <input class="inputField passInput" type="password" placeholder="PASSWORD">
+    <button class="btn loginBtn" onclick="goToPage('index.html','../../')"> Login</button>
+    <div class="linkContainer">
+      <a href="#">Forgot password</a>
+    </div>
+    <div class="linkContainer">
+      <a href="#">Create new account</a>
+    </div>
+  </div>
   <script src="../../js/navigation.js"></script>
 </body>
 </html>

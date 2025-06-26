@@ -1,12 +1,229 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <button onclick="goToPage('Login')">Go To Login Page</button>
-  <script src="./js/navigation.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./cssResrt.css" />
+    <!-- ADD import after extracting styles of component for BTN -->
+    <link rel="stylesheet" href="./index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="header">
+      <button onclick="goToPage('Login')">Login</button>
+    </div>
+    <div class="products-container">
+      <div class="products-header">
+        <h2>Products</h2>
+        <div class="products-manipulation">
+          <div class="products-categories">
+            <span class="active">All Products</span>
+            <span>Category 1</span>
+            <span>Category 2</span>
+            <span>Category 3</span>
+          </div>
+          <button class="filter-btn">
+            <span>
+              <img src="./images/filter.svg" alt="filter" />
+            </span>
+            Filter
+          </button>
+        </div>
+      </div>
+      <div class="products-grid">
+        <div class="product-card">
+          <div class="product-image-container">
+            <img src="./images/product1.png" alt="Product 1" />
+            <div class="product-hover">
+              <span>3 left</span>
+              <button>
+                <span class="cart-icon">
+                  <img src="./images/cart.svg" alt="cart" />
+                </span>
+                Add To Cart
+              </button>
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-name">Name Of Product 1</div>
+            <div class="product-type">Type Of Product</div>
+            <div class="product-price">$99.99</div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image-container">
+            <img src="./images/product1.png" alt="Product 1" />
+            <div class="product-hover">
+              <span>3 left</span>
+              <button>
+                <span class="cart-icon">
+                  <img src="./images/cart.svg" alt="cart" />
+                </span>
+                Add To Cart
+              </button>
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-name">Name Of Product 1</div>
+            <div class="product-type">Type Of Product</div>
+            <div class="product-price">$99.99</div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image-container">
+            <img src="./images/product1.png" alt="Product 1" />
+            <div class="product-hover">
+              <span>3 left</span>
+              <button>
+                <span class="cart-icon">
+                  <img src="./images/cart.svg" alt="cart" />
+                </span>
+                Add To Cart
+              </button>
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-name">Name Of Product 1</div>
+            <div class="product-type">Type Of Product</div>
+            <div class="product-price">$99.99</div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image-container">
+            <img src="./images/product1.png" alt="Product 1" />
+            <div class="product-hover">
+              <span>3 left</span>
+              <button>
+                <span class="cart-icon">
+                  <img src="./images/cart.svg" alt="cart" />
+                </span>
+                Add To Cart
+              </button>
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-name">Name Of Product 1</div>
+            <div class="product-type">Type Of Product</div>
+            <div class="product-price">$99.99</div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image-container">
+            <img src="./images/product1.png" alt="Product 1" />
+            <div class="product-hover">
+              <span>3 left</span>
+              <button>
+                <span class="cart-icon">
+                  <img src="./images/cart.svg" alt="cart" />
+                </span>
+                Add To Cart
+              </button>
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-name">Name Of Product 1</div>
+            <div class="product-type">Type Of Product</div>
+            <div class="product-price">$99.99</div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image-container">
+            <img src="./images/product1.png" alt="Product 1" />
+            <div class="product-hover">
+              <span>3 left</span>
+              <button>
+                <span class="cart-icon">
+                  <img src="./images/cart.svg" alt="cart" />
+                </span>
+                Add To Cart
+              </button>
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-name">Name Of Product 1</div>
+            <div class="product-type">Type Of Product</div>
+            <div class="product-price">$99.99</div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image-container">
+            <img src="./images/product1.png" alt="Product 1" />
+            <div class="product-hover">
+              <span>3 left</span>
+              <button>
+                <span class="cart-icon">
+                  <img src="./images/cart.svg" alt="cart" />
+                </span>
+                Add To Cart
+              </button>
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-name">Name Of Product 1</div>
+            <div class="product-type">Type Of Product</div>
+            <div class="product-price">$99.99</div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image-container">
+            <img src="./images/product1.png" alt="Product 1" />
+            <div class="product-hover">
+              <span>3 left</span>
+              <button>
+                <span class="cart-icon">
+                  <img src="./images/cart.svg" alt="cart" />
+                </span>
+                Add To Cart
+              </button>
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-name">Name Of Product 1</div>
+            <div class="product-type">Type Of Product</div>
+            <div class="product-price">$99.99</div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image-container">
+            <img src="./images/product1.png" alt="Product 1" />
+            <div class="product-hover">
+              <span>3 left</span>
+              <button>
+                <span class="cart-icon">
+                  <img src="./images/cart.svg" alt="cart" />
+                </span>
+                Add To Cart
+              </button>
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-name">Name Of Product 1</div>
+            <div class="product-type">Type Of Product</div>
+            <div class="product-price">$99.99</div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image-container">
+            <img src="./images/product1.png" alt="Product 1" />
+            <div class="product-hover">
+              <span>3 left</span>
+              <button>
+                <span class="cart-icon">
+                  <img src="./images/cart.svg" alt="cart" />
+                </span>
+                Add To Cart
+              </button>
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-name">Name Of Product 1</div>
+            <div class="product-type">Type Of Product</div>
+            <div class="product-price">$99.99</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/navigation.js"></script>
+  </body>
 </html>

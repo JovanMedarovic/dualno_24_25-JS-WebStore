@@ -1,4 +1,62 @@
 body {
   background-color: #F1F1F1;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 420px;
+  width: 300px;
+}
+
+.imageContainer {
+  margin-bottom: 50px;
+}
+
+.userInput {
+  margin-bottom: 20px;
+}
+
+.passInput {
+  margin-bottom: 43px;
+}
+
+.loginBtn {
+  margin-bottom: 8px;
+}
+
+.inputField {
+  padding: 13px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.25);
+  width: 300px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.btn {
+  border: none;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.30);
+  padding: 13px;
+  width: 300px;
+  font-size: 20px;
+  color: #FFD130;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.linkContainer {
+  width: 100%;
+  margin-top: 12px;
 }
